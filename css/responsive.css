@@ -1,0 +1,144 @@
+/* Normal desktop :1200px. */
+@media (max-width: 1200px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (max-width: 991px) {
+    .box-2, .resume-area .box-2, .about-area .box-1, .skill-area .box-1 {
+        padding: 20px;
+    }
+    .section-title {
+        margin: 80px 0 50px;
+    }
+    .mt-100 {
+        margin-top: 60px;
+    }
+    .btn-st {
+        font-size: 14px;
+    }
+    .hero-area {
+        height: 90vh;
+    }
+    .hero-area .hero-area-wrapper h2 {
+        font-size: 75px;
+    }
+    .hero-area .hero-area-wrapper p {
+        font-size: 30px;
+    }
+    .about-wrapper .location {
+        margin: 5px 0;
+    }
+    .about-box .about-info .info-icon {
+        margin-right: 5px;
+    }
+    .about-box .about-info .info-desc h5 {
+        font-size: 13px;
+    }
+    .resume-area {
+        padding: 0;
+    }
+    .contact-info p {
+        font-size: 14px;
+        padding: 20px 0 0;
+        line-height: 15px;
+    }
+    .blog-area .single-blog-wrapper .bolg-details {
+        width: 75%;
+    }
+    .blog-area .single-blog-wrapper .bolg-details .details-inner h2 {
+        font-size: 20px;
+    }
+    .blog-area .single-blog-wrapper .bolg-details .details-inner h4 {
+        font-size: 16px;
+    }
+    .blog-area .single-blog-wrapper .bolg-details .details-inner ul li {
+        margin: 0px 2px;
+    }
+    .blog-area .single-blog-wrapper .bolg-details .details-inner ul li a {
+        font-size: 14px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 5px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (max-width: 767px) {
+    .section-title {
+        margin: 50px 0;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .mt-100 {
+        margin-top: 20px;
+    }
+    .pt-50 {
+        padding-top: 0;
+    }
+    .hero-area .hero-area-wrapper h2 {
+        font-size: 60px;
+    }
+    .hero-area .hero-area-wrapper p {
+        font-size: 25px;
+    }
+    .about-wrapper {
+        margin-top: 35px;
+    }
+    .about-img {
+        text-align: center;
+        width: 100%;
+    }
+    .about-box .about-info {
+        padding-top: 30px;
+    }
+    .about-btn {
+        text-align: center;
+        margin: 35px 0 25px;
+    }
+
+    .resume-area .resume-box-title h3 {
+        font-size: 22px;
+    }
+    .resume-area .mb-40 {
+        margin-bottom: 0;
+    }
+    .resume-area .resume-box-title {
+        margin-top: 35px;
+    }
+    .protfolio-area .protfolio-items .col-sm-6 {
+        padding: 0 7px;
+    }
+    .protfolio-area .protfolio-items .protfolio-content {
+        margin: 7px 0;
+    }
+    .blog-area .single-blog-wrapper {
+        margin: 20px 0;
+    }
+    .blog-area .single-blog-wrapper .blog-image img {
+        width: 100%;
+    }
+    .contact-info.box-2 {
+        margin-top: 20px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 575px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (max-width: 479px){
+.container {width:450px}
+ 
+}
